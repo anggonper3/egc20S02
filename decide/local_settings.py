@@ -12,7 +12,7 @@ MODULES = [
     'visualizer',
     'voting',
 ]
-BASEAURL = 'http://127.0.0.1:5001'
+BASEURL = 'http://localhost:8000'
 
 APIS = {
     'authentication': BASEURL,
@@ -29,9 +29,10 @@ APIS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'decide',
-        'USER': 'decide',
-        'HOST': 'db',
+        'NAME': 'postgres',
+        'USER': 'decide2',
+        'PASSWORD': 'anggonper3',
+        'HOST': 'localhost',
         'PORT': 5432,
     }
 }

@@ -5,6 +5,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'decide'
         'USER': 'decide',
+        'PASSWORD': 'anggonper3',
         'HOST': 'bd',
         'PORT': 5432,
     }

@@ -58,6 +58,8 @@ AUTHENTICATION_BACKENDS = [
     'base.backends.AuthBackend',
 ]
 
+BASEURL = 'https://examenanggonper3septiembre.herokuapp.com'
+
 MODULES = [
     'authentication',
     'base',
@@ -111,7 +113,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'decide',
         'USER': 'decide',
-        'PASSWORD': 'decide',
+        'PASSWORD': 'anggonper3',
         'HOST': 'localhost',
         'PORT': '5432',
     }
