@@ -6,7 +6,6 @@ addons:
   postgresql: "9.4"
 before_script:
   - cd decide
-  - cp local_settings.travis.py local_settings.py
   - psql -U postgres -c "create user decide password 'decide'"
   - psql -U postgres -c "create database decide owner decide"
   - psql -U postgres -c "ALTER USER decide SUPERUSER"
